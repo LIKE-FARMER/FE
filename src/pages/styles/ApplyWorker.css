@@ -1,0 +1,23 @@
+.Apply-form{
+    border: 1px solid lightgray;
+    text-align: center;
+    margin : 50px;
+}
+.form-main{
+    text-align: start;
+    margin-left:150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-main>p>input[type='text']{
+    width: 90px;
+}
+.Apply-form>button{
+    width: 300px;
+    margin-bottom: 50px;
+    
+}
+.Apply-form>p{
+    font-size: 13px;
+    line-height: 5px;
+}

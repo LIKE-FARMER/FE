@@ -1,0 +1,45 @@
+.container3{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.4fr 5fr 0.3fr;
+  }
+  .div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .div5{
+    border: 2px solid rgb(0, 128, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pageName{
+      font-size: 35px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: 5px;
+      margin-top: 0px;
+  }
+  .div5.lower{
+      text-align: center;
+      height: 150px;
+      background-color: rgb(246, 247, 249);
+      line-height: 100px;
+  }
+  .lower>p{
+      margin: 0;
+  }
+  .signupBTNN{
+    width: 450px;
+    height: 50px;
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    border-color: #ffffff;
+  }
+    

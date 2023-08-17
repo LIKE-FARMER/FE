@@ -1,0 +1,22 @@
+.create-post-form {
+    border: 1px solid gray;
+    padding: 20px;
+    width: 550px; /* width can be changed based on your preference */
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.create-post-form input[type='text'], .create-post-form input[type='file'], .create-post-form input[type='date'] {
+    width: 200px;
+}
+
+.create-post-form textarea {
+    width: 475px;
+    height: 300px;
+}
+
+.profileInfoContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

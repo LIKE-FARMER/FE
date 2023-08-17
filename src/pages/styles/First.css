@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Nanum+Pen+Script&display=swap');z
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 3, 3);
+    }
+}
+.first-bg{
+    position: relative;
+    opacity: 0.9;
+}
+.first-txt{
+    position: absolute;
+    top: 15%;
+    left: 29%;
+    text-align: center;
+}
+.first-txt>h1{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 100px;
+    margin-bottom: 0px;
+    color: black;
+    font-weight: 650;
+    animation: fadeInLeft 2s;
+}
+.first-txt>h4{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: rgb(36, 131, 24);
+    text-shadow: 0px 0 #000, 0 1px #000, 4px 0 #000, 0 -1px #000;
+}
+.first-txt>button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius : 30px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 430;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.first-txt>button:hover{
+    width: 220px;
+    height: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(54, 131, 24);
+    transition: 1s;
+}

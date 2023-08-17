@@ -1,0 +1,19 @@
+/* EditProfile.css */
+
+.input-container {
+    border: 1px solid gray;
+    padding: 20px;
+    width: 550px; /* width can be changed based on your preference */
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.input-container input[type='text'], .input-container input[type='file'] {
+    width: 200px;
+}
+
+.profileInfoContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

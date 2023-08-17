@@ -1,0 +1,53 @@
+.advertise>img{
+    width: 160px;
+    height : 300px;
+}
+/*******************************/
+.findworker-title{
+    width: 80%;
+    height: 110px;
+    border-radius: 10px;
+    background-color:  rgb(250, 250, 201);
+    font-size: 30px;
+    margin: 20px 130px 20px 150px;
+}
+.findworker-title>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.s1{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}
+/*******************************/
+
+.findworker-text>img{
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+.findworker-col{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.findworker-col>h4{
+    margin:25px 0 5px 0px ;
+}
+.findworker-col>p{
+    font-size: 12px;
+    margin: 2px;
+}
+.s2{
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: rgb(115, 110, 110);
+    color: white;
+}

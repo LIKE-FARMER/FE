@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Nanum+Pen+Script&display=swap');
+*{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.header{
+    position: sticky;
+    top:0px;
+    background-color: white;
+    box-shadow: 2px 1px 6px lightgray;
+    line-height: 60px;
+    padding: 15px 0 15px 0;
+    display: flex;
+}
+.header>a{
+    text-decoration-line: none;
+    color:rgb(54, 131, 24);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.a-plus{
+    color: white;
+    background-color: rgb(54, 131, 24);
+}
+.search{
+    position: relative;
+    width: 210px;
+}
+.search>input{
+    width: 100%;
+    height: 25px;
+    padding: 8px 42px 6px 22px;
+    font-size: 15px;
+    letter-spacing: -.5px;
+    background-color: rgb(243, 240, 240);
+    border: none;
+    border-radius: 10px;
+}
+.search>input:focus{
+    outline: none;
+}
+.search>button{
+    position: absolute;
+    top: 10px;
+    right:-50px;
+    border:none;
+    border-radius: 50px;
+    background-color: rgb(243, 240, 240);
+    font-size: 25px;
+    color:black;
+}  
+.header-btn>button{
+    border:none;
+    margin-left: 26px;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 280px;
+}
+.header-btn>button:hover{
+    font-weight: bolder;
+}
+
+/*******************************/
+.home_farm-main{
+    margin: 50px 130px 20px 150px;
+    display: flex;
+    flex-direction: row;
+}
+.main-sum{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    width: 230px;
+    height : 500px;
+    background-color: rgb(232, 241, 232);
+    border: none;
+    border-radius: 10px;
+    margin-right: 30px;
+    text-align: center;
+}
+.profile-img{
+    margin-top: 20px;
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+}
+hr{
+    width: 150px;
+    border-width:1px 0 0 0;
+    border-color: rgb(243, 240, 240);
+}
+.profile-btn-card{
+    width: 150px;
+    height: 65px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px double rgb(184, 180, 180);
+    background-color: white;
+}
+.profile-btn-card:hover{
+    background-color: lightgray;
+}
+.profile-btn-edit{
+    margin-top: 10px;
+    width: 80%;
+    border: none;
+    background-color:rgb(232, 241, 232);
+    vertical-align: middle;
+}
+.profile-btn-edit:hover{
+    font-weight: bold;
+}
+
+/*******************************/
+.board-total>p{
+    background-color: rgb(255, 255, 171);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+}
+.board-total>button{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    width: 100%;
+    height: 55px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+.board-title>button:hover{
+    background-color: lightgray;
+}
+.board-post{
+    width: 100%;
+    height : 570px;
+    background-color: rgb(243, 240, 240);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.board-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 0;
+}
+.board-text-title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.board-text-title>p{
+    margin-left: 5px;
+}
+.board-text-btn{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.board-text-btn>button{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.board-text-main>p{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+/*******************************/
+
+.board-comment{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.board-comment>input{
+    width: 20%;
+    height: 33px;
+    border: 1px solid lightgray;
+    margin-right:10px;
+}
+.board-comment>.comment-text{
+    width: 75%;
+    height: 40px;
+    border: 1px solid lightgray;
+    margin-right:10px;
+    margin-top: 5px;
+}
+.board-comment>input[type=text]:focus{
+    outline: none;
+}
+.board-comment>button{
+    width: 22%;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(54, 131, 24); 
+    color: white
+}
+.show{
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+.board-comment>button:hover{
+    background-color: rgb(232, 241, 232);
+    color:black;
+}
+.comm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(232, 241, 232);
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.comm>button{
+    height: 30px;
+}
+/*******************************/
+.level{
+    width: 230px;
+    height : 300px;
+    position: fixed;
+    right: 8%; 
+    background-color: rgb(252, 248, 248);
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+/*******************************/
+.lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 180px;
+    margin-top: 80px;
+    background-color: rgb(246, 247, 249);
+}
+
+/* ProfileInfo.css */
+
+.profileInfoContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    padding: 20px;
+}
+
+.profileBox {
+    border: 1px solid gray;
+    padding: 20px;
+    width: 550px; /* width can be changed based on your preference */
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.inventoryBox {
+    border: 1px solid gray;
+    padding: 20px;
+    width: 350px; /* width can be changed based on your preference */
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* make profile image round */
+}
+
+/* 필요에 따라 recordsBox의 스타일도 조정할 수 있습니다. 예를 들면: */
+.recordsBox {
+    width: 45%; /* or 다른 값을 설정하여 박스의 너비를 조절 */
+    /* 추가적인 스타일링 */
+}
+
